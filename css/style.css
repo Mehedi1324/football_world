@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+p {
+    font-size: 14px;
+    font-family: -webkit-pictograph;
+    color: #403535;
+}
+header {
+    display: flex;
+    background-color: #2D25A0;
+    height: 678px;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.h50{
+    width: 50%;
+    height: 500px;
+}
+.h50 a {
+    color: white;
+    text-decoration: none;
+    background: #a92424;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 23px;
+    box-shadow: 1px 2px 1px 1px black;
+    margin-left: 119px;
+}
+.h50 h1 {
+    font-size: 64px;
+    color: white;
+    margin-left: 117px;
+    margin-right: 133px;
+}
+.h50 img{
+    width: 556px;
+    height: 438px;
+}
+main{
+    display: grid;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.player {
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 1px 14px 0px #54514c8c;
+    margin: 23px;
+    border-radius: 5px;
+}
+.banner img{
+    width: 300px;
+    height: 256px;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.end img{
+    height: 110px;
+    width: 483px;
+}
+.end p {
+    height: 32px;
+    width: 170px;
+    margin: auto;
+}
+.end p img {
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+}
+.end h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #2b2a2a;
+    font-size: 18px;
+    margin-top: 29px;
+}
+section.contact-form {
+    background-color: #2D25A0;
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+}
+.contant {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.contant> p{
+    color: white;
+}
+.contant input, button{
+    padding: 10px; 
+    margin-top: 20px;   
+    border-radius:5px ;
+    font-size: 18px;
+    width: 400px;
+}
+.contant button{
+    background-color: #a92424;
+    color: white;
+    width: 150px;
+    
+}
+.last h1{
+    font-size: 56px;
+}
+.last p {
+    width: 53%;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 179px;
+}
+.last article {
+    width: 50%;
+    text-align: center;
+    margin-right: 85px;
+}
+.last h1 {
+    font-size: 56px;
+    margin-left: 173px;
+    text-align: left;
+    margin-right: 39px;
+}
+.last button {
+    padding: 10px 20px 10px 20px;
+    width: auto;
+    border-radius: 24px;
+    margin-right: 36%;
+    background-color: #bf412a;
+    color: white;
+    box-shadow: 1px 2px 1px 1px black;
+    background: #a92424;
+}
+section.container.last {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
