@@ -80,8 +80,8 @@ main{
  
 }
 .player {
-    width: 370px;
-    height: 540px;
+    width: 330px;
+    height: 474px;
     padding: 15px;
     background-color: white;
     box-shadow: 2px 1px 14px 0px #54514c8c;
@@ -94,11 +94,9 @@ main{
 
 }
 .player h2{
-    font-size: 34px;
+    font-size: 26;
 }
-.player p {
-    font-size: 18px;
-}
+
 .player:hover{
     transform: scale(1.1);
 
