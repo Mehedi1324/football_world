@@ -1,3 +1,5 @@
+
+/* ---------------------over all out looks----------- */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -7,16 +9,27 @@ p {
     font-family: -webkit-pictograph;
     color: #403535;
 }
+button:hover {
+    background: #f0ff08c7;
+    transform: scale(1.1);
+    font-size: 19px;
+    color: #777777;
+    font-weight: 600
+}
+
+/* ----------------------------head---------------------------------- */
 header {
     display: flex;
     background-color: #2D25A0;
     height: 678px;
     align-items: center;
     margin-bottom: 7%;
+    flex-wrap: wrap;
 }
 .h50{
     width: 50%;
     height: 500px;
+    animation: upd 3s linear forwards;
 }
 .h50 a {
     color: white;
@@ -29,16 +42,32 @@ header {
     box-shadow: 1px 2px 1px 1px black;
     margin-left: 119px;
 }
+.h50 a:hover {
+    background: #f0ff08c7;
+    padding: 15px 27px;
+}
 .h50 h1 {
     font-size: 64px;
     color: white;
     margin-left: 117px;
     margin-right: 133px;
+    
+}
+
+@keyframes upd{
+    from{
+        transform:rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
 }
 .h50 img{
     width: 556px;
     height: 438px;
 }
+
+/* ---------------------------body --------------------- */
 main{
     display: grid;
 
@@ -47,46 +76,80 @@ main{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+ 
 }
 .player {
-    width: 300px;
-    height: 426px;
+    width: 370px;
+    height: 540px;
     padding: 15px;
     background-color: white;
     box-shadow: 2px 1px 14px 0px #54514c8c;
     margin: 23px;
     border-radius: 5px;
 }
+
 .banner img{
-    width: 300px;
-    height: 256px;
+    width: 99%;
+
 }
-.end {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+.player h2{
+    font-size: 34px;
 }
-.end img{
-    height: 110px;
-    width: 483px;
-}
-.end p {
-    height: 32px;
-    width: 170px;
-    margin: auto;
-}
-.end p img {
-    width: 32px;
-    height: 32px;
-    margin: 3px;
-}
-.end h2 {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 500;
-    color: #2b2a2a;
+.player p {
     font-size: 18px;
-    margin-top: 29px;
+}
+.player:hover{
+    transform: scale(1.1);
+
+}
+/* ---------------------------Intro container---------------------------------- */
+
+section.container.last {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.last h1{
+    font-size: 56px;
+}
+.last p {
+    width: 53%;
+    font-size: 21px;
+    text-align: left;
+    margin-left: 179px;
+}
+.last article {
+    width: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+.last h1 {
+    font-size: 56px;
+    margin-left: 173px;
+    text-align: left;
+    margin-right: 39px;
+}
+.last button {
+    padding: 12px 33px 12px 33px;
+    width: auto;
+    border-radius: 12px;
+    margin-right: 47%;
+    background-color: #bf412a;
+    color: white;
+    box-shadow: 0px 1px 5px 0px #00000085;
+    background: #a92424;
+}
+
+
+/* ----------------------------info form--------------------------------------  */
+
+.contant {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 100px;
+    flex-wrap: wrap;
+ 
 }
 section.contact-form {
     background-color: #2D25A0;
@@ -96,13 +159,10 @@ section.contact-form {
     color: white;
     display: flex;
     margin-top: 100px;
+  
+
 }
-.contant {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    margin-left: 100px;
-}
+
 .contant> p{
     color: white;
 }
@@ -119,38 +179,143 @@ section.contact-form {
     width: 150px;
     
 }
-.last h1{
-    font-size: 56px;
-}
-.last p {
-    width: 53%;
-    font-size: 18px;
-    text-align: left;
-    margin-left: 179px;
-}
-.last article {
-    width: 50%;
-    text-align: center;
-    margin-right: 85px;
-}
-.last h1 {
-    font-size: 56px;
-    margin-left: 173px;
-    text-align: left;
-    margin-right: 39px;
-}
-.last button {
-    padding: 10px 20px 10px 20px;
-    width: auto;
-    border-radius: 24px;
-    margin-right: 36%;
-    background-color: #bf412a;
-    color: white;
-    box-shadow: 1px 2px 1px 1px black;
-    background: #a92424;
-}
-section.container.last {
-    margin-top: 7%;
-    margin-bottom: 7%;
+#box{
+    margin: 0px;
+     width: 608px;
+      height: 310px;
+       font-size: 18px;"
 }
 
+/* ---------------------------footer----------------------- */
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.end img{
+    height: 110px;
+    width: 483px;
+}
+.end p {
+    height: 32px;
+    width: 170px;
+    margin: auto;
+}
+.end p img {
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+}
+.end a img:hover {
+    transform: scale(1.5);
+}
+.end h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #2b2a2a;
+    font-size: 18px;
+    margin-top: 29px;
+}
+
+
+/* ---------------------------responsivness----------------- */
+
+@media(max-width:688px){
+/* ---------------------------body----------------------- */
+    body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    header{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .h50{
+        width: 100%;
+    }
+    .h50 h1{
+        font-size: 36px;
+        margin-left: 30px;
+    }
+    .h50 a{
+        margin-left: 30px;
+    }
+    .h50 img {
+        width: 100%;
+        height: auto;
+    }
+/*----------------------- container ---------------------- */
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+/* ----------------------intro container --------------------- */
+    
+    section.container.last {
+        margin-top: 20%;
+        margin-bottom: 7%;
+    }
+    .last article {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .last p {
+        width: 100%;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .last h1 {
+        font-size: 36px;
+        text-align: left;
+        margin: 0px;
+    }
+    .last img{
+        width: 100%;
+        margin-top: 8%;
+    }
+    .last button{
+        margin-left: 0px;
+        float: left;
+    }
+   
+/* ----------------------form-------------------------------- */
+    section.contact-form{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .contant {
+        flex-direction: column;
+        margin-left: 30px;
+        width: auto;
+        margin-right: 10px;
+    }
+    .contant input {
+        font-size: 16px;
+        width: 80%;
+    }
+    .contant h2{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #box{
+        width: 92%;
+    }
+    .contant button{
+        margin-bottom: 8%;
+    }
+
+
+/* ---------------------------footer ---------------------------------- */
+    .end p{
+        text-align: center;
+    }
+    
+}
